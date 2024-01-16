@@ -1,0 +1,612 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: poppins;
+    src: url(./Poppins-Regular.ttf);
+  }
+body{
+    background-color: #F9F9F9;
+}
+.header{
+    background-color:#F9F9F9 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    
+}
+
+.logo{
+
+   margin-right: 40px;
+    margin-left: 24px;
+  
+
+}
+.header a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #262626;
+    padding-left:10px;
+    font-family: poppins;
+   margin-left: 45px;
+   font-weight: 700;
+   line-height: 21px;
+    
+}
+header img{
+    cursor: pointer;
+}
+.hed{
+    text-decoration: none;
+    font-size: 14px;
+    color: #262626;
+    font-family: poppins;
+    background-color: #4CE0D7;
+    border-radius: 35px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 4px;
+    
+}
+.card{
+    border-radius: 20px;
+    margin-top: 55px;
+    margin-left: 84px;
+    margin-bottom: 73px;
+    margin-right: 84px;
+    height:560px ; border-radius: 15px;
+    background-image:url(./pexels-andrea-piacquadio-994234\ 1.png) ;
+}
+.text{
+    padding-left: 57px;
+    padding-top: 218px;
+    padding-bottom: 141px;
+}
+.h-5{
+ font-family: poppins;
+ font-weight: 700;
+ font-size: 12px;
+ line-height: 18px;
+ letter-spacing: 23%;
+ color: #FFFFFF;
+ padding-bottom: 22px;
+}
+.h-2{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 69px;
+    color: white;
+    padding-bottom: 20px;
+}
+.p-1{
+ font-family: poppins;
+ font-weight: 400;
+ font-size: 20px;
+ line-height: 30px;
+ color: white;
+}
+.span-1{
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 69px;
+    padding-bottom: 22px;
+ background: linear-gradient(90deg,#4CE0D7, #8BA9F4 ,#FFFFFF);
+ text-transform: uppercase;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+.oo{
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    margin-left: 104px;
+    margin-top:73px ;
+    margin-bottom:48px ;
+}
+.card-1{
+    width: 204px;
+    height: 290px;
+    border: solid 1px rgb(212, 221, 221);
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    margin-left: 80px;
+    margin-left: 10px;
+}
+.card--1{
+    margin-bottom: 20px;
+    background-color: #FFF;
+    border-radius: 20px;
+}
+.card-1 img{
+    height: 100px !important;
+    width: 100px !important;
+}
+h3{
+ font-family: poppins;
+ font-weight: 700;
+ font-size: 20px;
+ line-height: 30px;
+ margin-top: 20px;
+}
+.btn{
+    background-color: #4CE0D7;
+    width: 143px;
+    height: 36px;
+    border-radius: 40px;
+   border: solid 1px #4CE0D7;
+   cursor: pointer;
+   margin-bottom: 10px;
+   margin-top: 40px;
+}
+.btn a{
+    color: black;
+    padding-left:40p ;
+    padding-top: 9px;
+    padding-bottom:40px ;
+    padding-right: 9px;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+}
+.block{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-bottom: 83px;
+    border-bottom: solid 1px #BCBCBC;
+}
+.btn-1{
+    width: 233px;
+    height: 36px;
+    background-color: #262626;
+    border-radius: 40px;
+    border: solid #262626;
+    margin-left: 47px;
+    margin-top: 23px;
+}
+.btn-1 a{
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+}
+.card-3{
+    background-image: url(./Mask\ group.png);   
+    height: 360px;
+    background-repeat: no-repeat;
+    
+    border-radius: 10px;
+    margin-top: 52px;
+    background-size: cover;
+}
+
+.card-4{
+   padding-left:64px;
+   padding-right: 64px;
+ 
+}
+.txt{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+h6{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 50px;
+    color: #BCBCBC;
+}
+h4{
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 24%;
+    color: #F25E5E;
+    margin-left:390px ;
+
+}
+h5{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 20px;
+    color: #BCBCBC;
+}
+.h--2{
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    padding-top: 45px;
+    padding-left: 34px;
+}
+.sect-2-text{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 23px;
+    padding-left: 34px;
+}
+.b{
+    color:#4CE0D7 ;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 24%;
+    padding-top:40px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+
+}
+.block-2{
+    background-color: #F9F9F9;
+}
+
+.block-2-1{
+    background-color: #8a2626;
+    margin-left: 118px;
+    margin-right: 118px;
+    border-radius: 20px;
+background: #FFF;
+box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
+}
+.card-2-2 button{
+    width: 233px;
+    height: 36px;
+    background-color: #262626;
+    border-radius: 40px;
+    border: solid #262626;
+    margin-left: 47px;
+    margin-top: 23px;
+    color: white;
+    cursor: pointer;
+}
+.card-2-2{
+    background-image: url(./foto-1.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 550px;
+    height: 278.09px;
+    background-size: cover;
+    display: flex;
+   
+
+   
+}
+.flexblock{
+    display: flex;
+    margin-left: 104px;
+    column-gap: 40px;
+    
+}
+.card-3-3{
+    width: 550px;
+   
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #FFF;
+    
+}
+.h--5{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+     padding-left: 28px;
+    color: #BCBCBC;
+}
+.txt--2{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding-left: 83px;
+    color: #BCBCBC;
+}
+.txt-1{
+    
+        display: flex;
+        align-items: center;
+        padding-top: 23px;
+    
+    
+}
+.txt-1 img{
+    padding-left: 23px;
+ 
+}
+.card-3-3 h2{
+    padding-left: 34px;
+}
+.card-3-3 p{    
+    padding-left: 34px;
+}
+.c{
+    color:#4CE0D7 ;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 24%;
+    padding-top:40px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 22px;
+    padding-bottom: 36p;
+
+}
+.card-2-3{
+    background-image: url(./foto-2.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 550px;
+    height: 278.09px;
+    background-size: cover;
+  
+}
+.card-2-3 button{
+    width: 233px;
+    height: 36px;
+    background-color: #262626;
+    border-radius: 40px;
+    border: solid #262626;
+    margin-left: 47px;
+    margin-top: 23px;
+    color: white;
+    cursor: pointer;
+}
+.card-3-4{
+    width: 550px;   
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #FFF;
+}
+.card-6{
+    background-image: url(./img-1.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 547.51px;
+    background-size: cover;
+     
+ 
+}
+.blok{
+    margin-top: 88px;
+}
+.card--1{
+    display: flex;
+    height: 367.41px; ;
+   
+}
+.card-7{
+width: 657px; 
+height: 367.41px;
+border-bottom-right-radius: 20px;
+border-top-right-radius: 20px;
+background-color: #FFF;
+
+}
+.h--6{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #BCBCBC;
+}
+.txt--3{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding-left: 83px;
+    color: #BCBCBC;
+}
+.txt-3{
+    
+    display: flex;
+    align-items: center;
+    padding-top: 23px;
+    padding-left: 45px;
+}
+
+.sect-4-text{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 45px;
+
+}
+.h--3{
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    padding-left: 45px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+.c-1{
+    color:#4CE0D7 ;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 24%;
+    padding-top:2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 45px;
+    padding-top: 35px;
+
+
+}
+.card-6 button{
+    
+        width: 233px;
+        height: 36px;
+        background-color: #262626;
+        border-radius: 40px;
+        border: solid #262626;
+        margin-left: 47px;
+        margin-top: 23px;
+        color: white;
+        cursor: pointer;
+    
+}
+.container{
+    margin-top: 88px;
+    margin-left: 118px;
+    margin-right: 118px;
+}
+.card-8{
+        background-image: url(./kisk.png);
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        width: 547.51px;
+        background-size: cover;   
+        
+}
+.card-8 button{
+    
+    width: 233px;
+    height: 36px;
+    background-color: #262626;
+    border-radius: 40px;
+    border: solid #262626;
+    margin-left: 47px;
+    margin-top: 23px;
+    color: white;
+    cursor: pointer;
+}
+.card-9{
+    background-image: url(./eooss.png);
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        width: 547.51px;
+        background-size: cover; 
+        
+}
+.card-9 button{
+    
+    width: 233px;
+    height: 36px;
+    background-color: #262626;
+    border-radius: 40px;
+    border: solid #262626;
+    margin-left: 47px;
+    margin-top: 23px;
+    color: white;
+    cursor: pointer;
+}
+.card-7-8{
+    width: 657px; 
+    height: 357.041px;
+    border-radius: 20px;
+    border-radius: 20px;
+    background-color: #FFF;
+  
+    }
+.card-7-9{
+    width: 657px; 
+    height: 360.41px;
+    border-radius: 20px;
+    border-radius: 20px;
+    background-color: #FFF;
+    
+        }
+.card-7-10{
+      width: 657px; 
+      height: 360.41px;
+      border-radius: 20px;
+      border-radius: 20px;
+     background-color: #FFF;
+    
+  }
+  .card-14{
+    margin-top: 69px;
+    height: 308px;
+    background-color: #FFF;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+ }
+ .card-15{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px #BCBCBC;
+    height: 180px;
+ }
+ .qq{
+    padding-top: 80px;
+    padding-left: 84px;
+    margin-bottom: 77px;
+ }
+ .ww{
+    padding-right: 89px;
+    padding-top: 80px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    
+ }
+ .ww h3{
+    padding-top: 85px;
+    margin-bottom: 103px;
+    padding-right: 15px;
+    color: #262626;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+ .ww img{
+  padding-left: 20px;
+ }
+ .card-14 p{
+    padding-top: 34px;
+    padding-left: 88px;
+    padding-bottom: 37px;
+    color: #262626;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+
+
+
+
+
